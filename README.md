@@ -1,29 +1,15 @@
-# Next.js + Jest
+# Next.js + Jest + Cypress + Eslint
 
-This example shows how to configure Jest to work with Next.js.
-
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
-
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
-
-```bash
-npx create-next-app --example with-jest with-jest-app
-```
-
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
-
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
+This template include Jest, Cypress and Eslint in Nextjs
 
 ## Run Jest Tests
 
 ```bash
-npm test
+yarn test
+```
+
+## Run Cypress Tests
+
+```bash
+yarn e2e:headless
 ```
